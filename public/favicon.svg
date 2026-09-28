@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.14" />
+    </filter>
+    <filter id="pin-subtle-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="14" stdDeviation="7" flood-color="#000000" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Tilted Assembly -->
+  <g transform="rotate(-13, 256, 265)">
+    <!-- Drop Shadow -->
+    <rect x="105" y="118" width="310" height="310" rx="16" fill="#000000" opacity="0.22" filter="url(#soft-shadow)" />
+
+    <!-- Isometric Bottom Facet -->
+    <path d="M 117 420 L 395 420 Q 411 420 418 427 L 124 427 Q 101 420 117 420 Z" fill="#B45309" />
+
+    <!-- Isometric Right Facet -->
+    <path d="M 411 126 L 411 404 L 418 411 L 418 133 Q 411 110 411 126 Z" fill="#D97706" />
+
+    <!-- Yellow Sticky Note Face -->
+    <rect x="101" y="110" width="310" height="310" rx="16" fill="#FBBF24" />
+
+    <!-- Top Adhesive Accent Line -->
+    <line x1="119" y1="154" x2="393" y2="154" stroke="#D97706" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.3" />
+
+    <!-- Interlocking "KD" Monogram -->
+    <g id="kd-monogram">
+      
+    <!-- K: Vertical Stem -->
+    <rect x="166" y="200" width="26" height="124" rx="5" fill="#111827" />
+    <!-- K: Lower Leg -->
+    <path d="M 204 250 L 258 320 C 260 323 258 324 254 324 L 226 324 C 223 324 220 322 218 319 L 180 270 Z" fill="#111827" />
+    <!-- D: Spine -->
+    <rect x="226" y="200" width="26" height="124" rx="5" fill="#111827" />
+    <!-- D: Bowl -->
+    <path d="M 238 200 L 282 200 C 324 200 346 226 346 262 C 346 298 324 324 282 324 L 238 324 L 238 298 L 280 298 C 305 298 318 284 318 262 C 318 240 305 226 280 226 L 238 226 Z" fill="#111827" />
+    <!-- Interlocking Cutout Gap -->
+    <path d="M 194 266 L 254 198 L 274 214 L 214 282 Z" fill="#FBBF24" stroke="#FBBF24" stroke-width="8" />
+    <!-- K: Upper Diagonal Arm over D -->
+    <path d="M 184 256 L 244 198 C 246 196 249 196 251 198 L 271 216 C 273 218 273 221 270 224 L 208 280 Z" fill="#111827" />
+    </g>
+
+    <!-- Red Pushpin -->
+    <g id="pushpin">
+      <ellipse cx="260" cy="138" rx="19" ry="9" fill="#78350F" opacity="0.45" filter="url(#pin-subtle-shadow)" />
+      <ellipse cx="256" cy="135" rx="4" ry="2" fill="#18181B" opacity="0.75" />
+      <path d="M 254.5 129 L 256 136 L 257.5 129 Z" fill="#64748B" />
+      <ellipse cx="256" cy="128" rx="15" ry="7" fill="#C2410C" />
+      <path d="M 245 127 C 249 116 247 108 239 100 L 273 100 C 265 108 263 116 267 127 Z" fill="#EA580C" />
+      <ellipse cx="256" cy="100" rx="23" ry="13" fill="#F97316" />
+      <ellipse cx="256" cy="98" rx="18" ry="10" fill="#FB923C" />
+      <ellipse cx="256" cy="97" rx="13" ry="7" fill="#F97316" />
+      <ellipse cx="251" cy="95" rx="5" ry="2.5" fill="#FFEDD5" opacity="0.85" />
+    </g>
+  </g>
+</svg>
