@@ -9,28 +9,28 @@ Keepday was created to simplify day-to-day organisation and help users stay focu
 A key feature is the integrated Pomodoro timer, initially set to 25 minutes of focus and 5 minutes of rest, which can be easily customised to suit individual workflows. It also allows users to set up dedicated organisation blocks to navigate particularly busy weeks.
 
 ## Key Features
-Dashboard: Central overview of daily and weekly planning.
+* Dashboard: Central overview of daily and weekly planning.
 
-Calendar: Event scheduling and timetable visualisations.
+* Calendar: Event scheduling and timetable visualisations.
 
-Tasks: Creation, tracking, and management of to-dos.
+* Tasks: Creation, tracking, and management of to-dos.
 
-Modules / Subjects: Coursework and subject organisation.
+* Modules / Subjects: Coursework and subject organisation.
 
-Tutors / Lecturers: Directory and contact details for instructors.
+* Tutors / Lecturers: Directory and contact details for instructors.
 
-Pomodoro: Configurable focus and break timer.
+* Pomodoro: Configurable focus and break timer.
 
-Analytics / Performance: Progress and productivity tracking.
+* Analytics / Performance: Progress and productivity tracking.
 
-Organisation Periods: Custom scheduling blocks to manage peak workload periods.
+* Organisation Periods: Custom scheduling blocks to manage peak workload periods.
 
 ## Tech Stack
-Frontend: React 18, TypeScript, JavaScript, Vite 5, Tailwind CSS 3
+* Frontend: React 18, TypeScript, JavaScript, Vite 5, Tailwind CSS 3
 
-Backend & Database: Supabase / PostgreSQL
+* Backend & Database: Supabase / PostgreSQL
 
-Tooling & Styling: Lucide React, PostCSS, Autoprefixer
+* Tooling & Styling: Lucide React, PostCSS, Autoprefixer
 
 ## Background & Evolution
 Keepday originated as a prototype bootstrapped with Bolt.new. I then transitioned the repository to a local development environment in Visual Studio Code to gain full control over 
